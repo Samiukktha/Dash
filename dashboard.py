@@ -17,6 +17,7 @@ def scrape_webslinger_data():
 
 # --- Step 2: Initialize the Dash App ---
 app = dash.Dash(__name__)
+server = app.server
 
 # --- Step 3: Define the App Layout ---
 app.layout = html.Div(children=[
